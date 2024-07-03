@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoGarden – Vegetable and Garden</title>
+     
+    
+     <link rel="stylesheet" href="assets/css/icofont.min.css">
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Stylesheet -->
+        
+</head>
+<body>
+
+    <!-- top bar section -->
+        <div class="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="top-contacts">
+                <a href="#"><i class="icofont-home"></i>999 New School, USA World.</a>
+                <a href="#"><i class="icofont-ui-call"></i>Phone:584 564 763</a>
+                <a href="#"><i class="icofont-envelope"></i>example@gmail.com</a>
+              </div><!-- top-contacts -->
+              <div class="top-socials">
+                <a href="#"><i class="icofont-facebook"></i></a>
+                <a href="#"><i class="icofont-twitter"></i></a>
+                <a href="#"><i class="icofont-instagram"></i></a>
+                <a href="#"><i class="icofont-pinterest"></i></a>
+              </div><!-- top-socials -->
+            </div><!-- row -->
+          </div><!-- container -->
+        </div><!-- top-bar -->
+    <!-- top bar section -->
+
+    <!-- nav bar section -->
+        <header>
+          <div class="container">
+          <nav>
+            <div class="logo">
+              <a href="#">
+                <img src="assets/images/logo1.png" alt="logo" class="static-logo">
+                <img src="assets/images/logo2.png" alt="logo" class="sticky-logo">
+              </a> 
+            </div><!-- logo -->
+
+            <div class="hamburg-menu">
+              <a href="#" class="menuToggle"></a>
+            </div><!-- hamburg menu -->
+
+            <div class="menu-wrap">
+              <ul class="menu">
+                <li><a href="index.html" class="items">Home</a></li>
+                <li><a href="about.html" class="items">About</a></li>
+                <li class="items-has-children"><a href="#" class="items">Services</a>
+                  <ul class="sub-menu" >
+                      <li><a href="spring-fall-cleanup.html">Spring & Fall Cleanup</a></li>
+                      <li><a href="#">Stone & Hardscaping</a></li>
+                  </ul>
+                </li>
+                <li class="items-has-children"><a href="#" class="items">Pages</a>
+                  <ul class="sub-menu">
+                    <li><a href="portfolio.html" class="items">Portfolio</a></li>
+                    <li><a href="#" class="items">Pricing Plan</a></li>
+                </ul>
+                </li>
+                <li class="items-has-children"><a href="#" class="items">Blog</a>
+                  <ul class="sub-menu">
+                    <li><a href="blog.html">Blog Page</a></li>
+                    <li><a href="#">Single Blog</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html" class="items">Contact</a></li>
+              </ul>
+  
+
+            <button class="openBtn hidden" onclick="openSearch()"><i class="icofont-search-2"></i></button>
+
+            <div id="myOverlay" class="overlay">
+              <div class="overlay-content">
+                <form action="action_page.php" class="search-form">
+                  <input type="text" placeholder="Type Your Keyword" name="search">
+                  <button type="submit"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </form>
+              </div><!-- overlay-content -->
+              <span class="closebtn" onclick="closeSearch()" title="Close Overlay"></span>
+            </div>
+            
+            </div> <!--menu-wrap -->
+          </nav>
+
+        </div><!-- container -->
+        </header>
+    <!-- nav bar section -->
+
+    <!-- breadcrumb section -->
+        <div class="breadcrumb">
+            <div class="breadcrumb-header">
+                <h2>Portfolio</h2>
+            </div><!-- breadcrumb-header -->
+            <div class="breadcrumb-inner">
+                <ul>
+                  <li>You are currently here!<i class="fa-regular fa-chevron-right"></i></li>
+                  <li>Home<i class="fa-regular fa-chevron-right"></i></li>
+                  <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div><!-- breadcrumb-inner -->
+        </div><!-- breadcrumb -->
+    <!-- breadcrumb section -->
+
+    <!-- portfolio section -->
+        <div class="portfolio">
+
+          <div class="portfolio_title wow fadeInUp">
+            <span>PROJECTS CONTEXT</span>
+            <h2>Our Recent Works</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. it enim ad minim veniam,</p>
+          </div><!-- portfolio_title -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+                  <ul class="portfolio-menu">
+                    <li class="active-item wow fadeInLeft" data-wow-delay="0.1s" data-filter="*">All Work</li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.2s" data-filter=".dried">Dried</li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.3s" data-filter=".fruit">Fruit</li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.4s" data-filter=".fruitjuice">Fruit Juice</li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.5s" data-filter=".othervegetable">Other Vegetable</li>
+                  </ul>
+            </div><!-- col-xl-12 -->
+          </div><!-- row -->
+
+          <div class="row portfolio-items">
+            <div class="col-xl-4 othervegetable">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.1s">
+                <img src="assets/images/port1.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+            <div class="col-xl-4 fruitjuice">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.2s">
+                <img src="assets/images/port2.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+            <div class="col-xl-4 dried fruitjuice">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.3s">
+                <img src="assets/images/port3.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+            <div class="col-xl-4 fruitjuice">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.4s">
+                <img src="assets/images/port4.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+            <div class="col-xl-4  fruit dried">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.5s">
+                <img src="assets/images/port5.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+            <div class="col-xl-4 fruitjuice">
+              <div class="single-portfolio wow fadeInUp" data-wow-delay="0.6s">
+                <img src="assets/images/port6.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <h4>Demo Media Title 1</h4>
+                  <p>
+                    <span>Dried</span>
+                    <span>Other Vegetable</span>
+                  </p>
+                </div><!-- portfolio-overlay -->
+              </div><!-- single-portfolio -->
+            </div><!-- col-xl-4 -->
+          </div><!-- row -->
+        </div><!-- container -->
+ 
+        <div class="pagination wow fadeInUp">
+          <span class="current">1</span>
+          <span>2</span>
+          <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+        </div><!-- pagination -->
+        </div><!-- portfolio -->
+    <!-- portfolio section -->
+
+    <!-- footer section -->
+        <footer>
+            <div class="container-wrap">
+              <div class="footer-top">
+                <div class="row">
+                    <div class="footer-desc wow fadeInUp" data-wow-delay="0.1s">
+                          <a href="#">
+                            <img src="assets/images/logo2.png" alt="">
+                          </a>
+                          <p>There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                          <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                          </ul>
+                    </div><!-- footer-desc -->
+                    <div class="footer-services wow fadeInUp" data-wow-delay="0.2s">
+                      <h4>Our Services</h4>
+                      <ul>
+                        <li><a href="#">Watering Garden</a></li>
+                        <li><a href="#">Garden Care</a></li>
+                        <li><a href="#">Lawn Removing</a></li>
+                        <li><a href="#">Landscape Design</a></li>
+                      </ul>
+                    </div><!-- footer-services -->
+                    <div class="footer-contact wow fadeInUp" data-wow-delay="0.3s">
+                      <h4>Get In Touch</h4>
+                      <div class="footer-inner-contact">
+                          <div class="footer-icon">
+                              <i class="fa-sharp fa-solid fa-location-dot"></i>
+                          </div><!-- footer-icon -->
+                          <div class="footer-info">
+                            <p>1245 Rang Raod, medical, E152 95RB</p>
+                          </div><!-- footer-info -->
+                      </div><!-- footer-inner-contact -->
+                      <div class="footer-inner-contact">
+                        <div class="footer-icon">
+                            <i class="fa-sharp fa-solid fa-phone"></i>
+                        </div><!-- footer-icon -->
+                        <div class="footer-info">
+                          <p>Telephone: (922) 3354 2252</p>
+                        </div><!-- footer-info -->
+                    </div><!-- footer-inner-contact -->
+                    <div class="footer-inner-contact">
+                      <div class="footer-icon">
+                          <i class="fa-sharp fa-solid fa-envelope-open-text"></i>
+                      </div><!-- footer-icon -->
+                      <div class="footer-info">
+                        <p>demo@example.com</p>
+                      </div><!-- footer-info -->
+                  </div><!-- footer-inner-contact -->
+                    </div><!-- footer-contact -->
+                    <div class="footer-gallery wow fadeInUp" data-wow-delay="0.4s">
+                      <h4>Gallery</h4>
+                      <div class="gallery">
+                        
+                                <div class="gallery-item">
+                                  <a href="#"><img src="assets/images/f1.jpg" alt=""></a>
+                                </div><!-- gallery-item -->
+                    
+
+                      
+                              <div class="gallery-item">
+                                <a href="#"><img src="assets/images/f2.jpg" alt=""></a>
+                              </div><!-- gallery-item -->
+                    
+
+                      
+                            <div class="gallery-item">
+                              <a href="#"><img src="assets/images/f3.jpg" alt=""></a>
+                            </div><!-- gallery-item -->
+                    
+
+                    
+                          <div class="gallery-item">
+                            <a href="#"><img src="assets/images/f4.jpg" alt=""></a>
+                          </div><!-- gallery-item -->
+                      
+
+                    
+                        <div class="gallery-item">
+                          <a href="#"><img src="assets/images/f5.jpg" alt=""></a>
+                        </div><!-- gallery-item -->
+                  
+                      <div class="gallery-item">
+                        <a href="#"><img src="assets/images/f6.jpg" alt=""></a>
+                      </div><!-- gallery-item -->
+                  
+                      </div><!-- gallery -->
+                    </div><!-- footer-gallery -->
+                </div><!-- row -->
+              </div><!-- footer-top -->
+            </div><!-- container-wrap -->
+        </footer>
+
+        <div class="footer-bottom">
+          <div class="container-wrap">
+            <div class="row">
+              <div class="copy-text wow fadeInUp">
+                <p>Copyright &copy; poket all rights reserved.</p>
+              </div><!-- copy-text -->
+              <div class="footer-menu wow fadeInUp">
+                <ul>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">contact us</a></li>
+                </ul>
+              </div><!-- footer-menu -->
+            </div><!-- row -->
+          </div><!-- container-wrap -->
+      </div><!-- footer-bottom -->
+    <!-- footer section -->
+
+
+    <!--Script's-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- jQuery google cdn -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="assets/js/countMe.min.js"></script>
+    <!-- counter -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- isotope -->  
+    <script src="assets/js/wow.min.js"></script>
+    <!-- animate -->
+    <script src="assets/js/main.js"></script>  
+   <!-- javascript -->
+   <script>
+    new WOW().init();
+  </script>
+   
+</body>
+</html>

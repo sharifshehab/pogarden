@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoGarden – Vegetable and Garden</title>
+     
+     
+     <link rel="stylesheet" href="assets/css/icofont.min.css">
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- font-awesome -->
+     <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+     <!-- slick slider -->
+     <link rel="stylesheet" href="assets/css/animate.css">
+     <!-- animate -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Stylesheet -->
+        
+</head>
+<body>
+
+    <!-- top bar section -->
+        <div class="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="top-contacts">
+                <a href="#"><i class="icofont-home"></i>999 New School, USA World.</a>
+                <a href="#"><i class="icofont-ui-call"></i>Phone:584 564 763</a>
+                <a href="#"><i class="icofont-envelope"></i>example@gmail.com</a>
+              </div><!-- top-contacts -->
+              <div class="top-socials">
+                <a href="#"><i class="icofont-facebook"></i></a>
+                <a href="#"><i class="icofont-twitter"></i></a>
+                <a href="#"><i class="icofont-instagram"></i></a>
+                <a href="#"><i class="icofont-pinterest"></i></a>
+              </div><!-- top-socials -->
+            </div><!-- row -->
+          </div><!-- container -->
+        </div><!-- top-bar -->
+    <!-- top bar section -->
+
+    <!-- nav bar section -->
+        <header>
+          <div class="container">
+          <nav>
+            <div class="logo">
+              <a href="#">
+                <img src="assets/images/logo1.png" alt="logo" class="static-logo">
+                <img src="assets/images/logo2.png" alt="logo" class="sticky-logo">
+              </a> 
+            </div><!-- logo -->
+
+            
+            <div class="hamburg-menu">
+              <a href="#" class="menuToggle"></a>
+            </div><!-- hamburg menu -->
+              
+            <div class="menu-wrap">
+            <ul class="menu">
+              <li><a href="index.html" class="items">Home</a></li>
+              <li><a href="about.html" class="items">About</a></li>
+              <li class="items-has-children"><a href="#" class="items">Services</a>
+                <ul class="sub-menu" >
+                    <li><a href="spring-fall-cleanup.html">Spring & Fall Cleanup</a></li>
+                    <li><a href="#">Stone & Hardscaping</a></li>
+                </ul>
+              </li>
+              <li class="items-has-children"><a href="#" class="items">Pages</a>
+                <ul class="sub-menu">
+                  <li><a href="portfolio.html" class="items">Portfolio</a></li>
+                  <li><a href="#" class="items">Pricing Plan</a></li>
+              </ul>
+              </li>
+              <li class="items-has-children"><a href="#" class="items">Blog</a>
+                <ul class="sub-menu">
+                  <li><a href="blog.html">Blog Page</a></li>
+                  <li><a href="#">Single Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html" class="items">Contact</a></li>
+            </ul>
+
+            <button class="openBtn hidden" onclick="openSearch()"><i class="icofont-search-2"></i></button>
+
+            <div id="myOverlay" class="overlay">
+              <div class="overlay-content">
+                <form action="action_page.php" class="search-form">
+                  <input type="text" placeholder="Type Your Keyword" name="search">
+                  <button type="submit"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </form>
+              </div><!-- overlay-content -->
+              <span class="closebtn" onclick="closeSearch()" title="Close Overlay"></span>
+            </div>
+            
+            </div> <!--menu-wrap -->
+          </nav>
+
+        </div><!-- container -->
+        </header>
+    <!-- nav bar section -->
+
+    <!-- slider section -->
+        <div class="homeslider">
+
+            <div class="slide" style="background-image: url(assets/images/slider1.jpg); height: 818px;">
+                <div class="container-wrap">
+                  <div class="slide-inner">
+                      <h2>Welcome To <br>Agriculture Made.</h2>
+                      <p>We bring over 35 years of public practice experience to our clients. <br> our firm is a family business.</p>
+                      <div class="slider-btn">
+                        <a href="#" class="slider-btn-left">Explore Garden</a>
+                        <a href="#" class="slider-btn-right">Read More</a>
+                      </div><!-- slider-btn -->
+                </div><!-- slide-inner -->
+              </div><!-- container-wrap -->
+            </div><!-- slide -->
+
+            <div class="slide" style="background-image: url(assets/images/slider1.jpg); height: 818px;">
+              <div class="container-wrap">
+                <div class="slide-inner">
+                    <h2>2nd To <br>Agriculture Made.</h2>
+                    <p>We bring over 35 years of public practice experience to our clients.<br> our firm is a family business.</p>
+                    <div class="slider-btn">
+                      <a href="#" class="slider-btn-left">Explore Garden</a>
+                      <a href="#" class="slider-btn-right">Read More</a>
+                    </div><!-- slider-btn -->
+              </div><!-- slide-inner -->
+            </div><!-- container -->
+          </div><!-- slide -->
+       
+        </div><!-- homeslider -->
+    <!-- slider section -->
+       
+    <!-- feature section -->
+        <div class="features">    
+          <div class="container-wrap">
+            <div class="row">
+            <div class="single-feature wow fadeInRight" data-wow-delay="0.5s">
+                <img src="assets/images/f1.png" alt="">
+                <div class="feature-inner">
+                  <h3>Agriculture</h3>
+                  <p>Vegetables, fruits, berries</p>
+                  <a href="#">Read More</a>
+                </div><!-- feature-inner -->
+            </div><!-- single-feature -->
+
+            <div class="single-feature wow fadeInUp" data-wow-delay="0.1s">
+              <img src="assets/images/f2.png" alt="">
+              <div class="feature-inner">
+                <h3>Landscaping</h3>
+                <p>Vegetables, fruits, berries</p>
+                <a href="#">Read More</a>
+              </div><!-- feature-inner -->
+          </div><!-- single-feature -->
+
+          <div class="single-feature wow fadeInLeft" data-wow-delay="0.5s">
+            <img src="assets/images/f3.png" alt="">
+            <div class="feature-inner">
+              <h3>Pruning Plants</h3>
+              <p>Vegetables, fruits, berries</p>
+              <a href="#">Read More</a>
+            </div><!-- feature-inner -->
+        </div><!-- single-feature -->
+      </div><!-- row -->
+      </div><!-- container-wrap -->
+        </div><!-- features -->
+    <!-- feature section -->
+
+    <!-- about section -->
+        <div class="about">
+          <div class="container-wrap">
+              <div class="row">
+                  <div class="about-img wow fadeIn">
+                      <img src="assets/images/about-thumb.png" alt="">
+                  </div><!-- abour-img -->
+                  <div class="about-content">
+                        <div class="about-desc wow fadeInUp">
+                          <h4>OUR INTRODUCTION</h4>
+                          <h2>About 25 Years <br> Experience In Gardening.</h2>
+                          <p>There are many variations of passages of available but the majority have suffered alteration in some form. of the truth the master-builder of human happiness one rejects dislikes</p>
+                        </div><!-- about-desc -->
+                        <div class="about-features">
+                          <div class="feature-item">
+                              <ul>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s"><i class="fa-sharp fa-solid fa-circle-check"></i><span>But must explain to you how all this idea</span></li>
+                                <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa-sharp fa-solid fa-circle-check"></i><span>There are many variations of available</span></li>
+                                <li class="wow fadeInUp" data-wow-delay="0.5s"><i class="fa-sharp fa-solid fa-circle-check"></i><span>Solution for small and large accusantium
+                                </span></li>
+                              </ul>
+                          </div><!-- feature-item -->
+                          <div class="feature-thumbnail wow fadeIn" data-wow-duration="3s">
+                              <img src="assets/images/about-sub-thumb.png" alt="">
+                          </div><!-- feature-thumbnail -->
+                        </div><!-- about-features -->
+                        <div class="about-btn wow fadeInUp" data-wow-duration="3s">
+                            <a href="#">Explore Garden</a>
+                        </div><!-- about-btn -->
+                  </div><!-- about-content -->
+              </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div><!-- about -->
+    <!-- about section -->
+
+    <!-- team section -->
+        <div class="team">
+          <div class="container-wrap">
+              <div class="team-title wow fadeInUp">
+                <h4>OUR TEM</h4>
+                <h2>Our Creative Team</h2>
+              </div><!-- team-title -->
+              <div class="row">
+                  <div class="single-member wow fadeInUp" data-wow-delay="0.1s">
+                      <img src="assets/images/team-2.jpg" alt="">
+                      <h3>Johnny Ramirez</h3>
+                      <p>Landscaping</p>
+                      <div class="team-social">
+                        <a href="#"><i class="icofont-facebook"></i></a>
+                        <a href="#"><i class="icofont-twitter"></i></a>
+                        <a href="#"><i class="icofont-vimeo"></i></a>
+                        <a href="#"><i class="icofont-tumblr"></i></a>
+                      </div><!-- team-social -->
+                  </div><!-- single-member -->
+                  <div class="single-member wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="assets/images/team-2.jpg" alt="">
+                    <h3>Johnny Ramirez</h3>
+                    <p>Landscaping</p>
+                    <div class="team-social">
+                      <a href="#"><i class="icofont-facebook"></i></a>
+                      <a href="#"><i class="icofont-twitter"></i></a>
+                      <a href="#"><i class="icofont-vimeo"></i></a>
+                      <a href="#"><i class="icofont-tumblr"></i></a>
+                    </div><!-- team-social -->
+                </div><!-- single-member -->
+                <div class="single-member wow fadeInUp" data-wow-delay="0.3s">
+                  <img src="assets/images/team-2.jpg" alt="">
+                  <h3>Johnny Ramirez</h3>
+                  <p>Landscaping</p>
+                  <div class="team-social">
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                    <a href="#"><i class="icofont-vimeo"></i></a>
+                    <a href="#"><i class="icofont-tumblr"></i></a>
+                  </div><!-- team-social -->
+              </div><!-- single-member -->
+              </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div>
+    <!-- team section -->
+
+    <!-- FAQ section -->
+        <div class="faq">
+          <div class="container-wrap">
+                <div class="row">
+                    <div class="faq-content wow fadeInUp">
+                        <h4>OUR FAQ</h4>
+                        <h2>Frequently Asked <br> Questions</h2>
+                        <p>There are many variations of passages of available but the majority have suffered alteration in some form.</p>
+
+                        <div class="collapsible-wrap">
+
+                          <div class="collapsible-row">                         
+                            <button type="button" class="collapsible">01. Quality Organic Food</button>
+                            <div class="content">
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem usa tium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi.</p>
+                            </div>
+                          </div><!-- collapsible-row -->
+
+                          <div class="collapsible-row">                         
+                            <button type="button" class="collapsible">02. Design Language Blocks Design</button>
+                            <div class="content">
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem usa tium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi.</p>
+                            </div>
+                          </div><!-- collapsible-row -->
+
+                          <div class="collapsible-row">                         
+                            <button type="button" class="collapsible">03. Building Web App With CMS</button>
+                            <div class="content">
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem usa tium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi.</p>
+                            </div>
+                          </div><!-- collapsible-row -->
+
+                        </div><!-- collapsible-wrap-->
+                    </div><!-- faq-content -->
+                    <div class="faq-img wow fadeIn">
+                        <img src="assets/images/faq-thumb.jpg" alt="">
+                        <div class="play-overlay">
+                          <a href="#"><i class="fa-solid fa-play"></i></a>
+                        </div><!-- play-overlay -->
+                    </div><!-- faq-img -->
+                </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div><!-- faq -->
+    <!-- FAQ section -->
+
+    <!-- counter section -->
+        <div class="counter">
+          <div class="container-wrap">
+              <div class="row">
+                <div class="single-counter wow fadeInLeft" data-wow-delay="0.1s">
+                    <img src="assets/images/icon-1.png" alt="">
+                    <div class="counter-content">
+                      <div>
+                        <h2 id="num1">223</h2>
+                        <span>+</span>
+                      </div>
+                      <p>Completed</p>
+                    </div><!-- counter-content -->
+                </div><!-- single-counter -->
+
+                <div class="single-counter wow fadeInLeft" data-wow-delay="0.2s">
+                  <img src="assets/images/icon-2.png" alt="">
+                  <div class="counter-content">
+                    <div>
+                      <h2 id="num2">120</h2>
+                      <span>+</span>
+                    </div>
+                    <p>Expert Membar</p>
+                  </div><!-- counter-content -->
+              </div><!-- single-counter -->
+
+              <div class="single-counter wow fadeInLeft" data-wow-delay="0.3s">
+                <img src="assets/images/icon-3.png" alt="">
+                <div class="counter-content">
+                  <div>
+                    <h2 id="num3">520</h2>
+                    <span>+</span>
+                  </div>
+                  <p>Happy Client</p>
+                </div><!-- counter-content -->
+            </div><!-- single-counter -->
+
+            <div class="single-counter wow fadeInLeft" data-wow-delay="0.4s">
+              <img src="assets/images/icon-4.png" alt="">
+              <div class="counter-content">
+                <div>
+                  <h2 id="num4">320</h2>
+                  <span>+</span>
+                </div>
+                <p>Work Product</p>
+              </div><!-- counter-content -->
+          </div><!-- single-counter -->
+              </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div><!-- counter -->
+    <!-- counter section -->
+
+    <!-- garden process section -->
+        <div class="garden-process">
+          <div class="container-wrap">
+            <div class="garden-process-title wow fadeInUp">
+              <h4>Our Working Process</h4>
+              <h2>How Does We Works.</h2>
+            </div><!-- garden-process-title -->
+              <div class="row">
+                  <div class="single-process wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="assets/images/process-01.png" alt="">
+                        <h3>Make Gardening</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante oremque esse quam molestiae</p>
+                  </div><!-- single-process -->
+                  <div class="single-process wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="assets/images/process-01.png" alt="">
+                    <h3>Make Gardening</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante oremque esse quam molestiae</p>
+              </div><!-- single-process -->
+              <div class="single-process wow fadeInUp" data-wow-delay="0.3s">
+                <img src="assets/images/process-01.png" alt="">
+                <h3>Make Gardening</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante oremque esse quam molestiae</p>
+          </div><!-- single-process -->
+              </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div><!-- garden-process -->
+    <!-- garden process section -->
+
+    <!-- newsletter section -->
+      <div class="newsform">
+      <div class="container-wrap">
+          <div class="newsletter wow fadeInUp">
+            <div class="newsletter-content">
+                  <h4>OUR NEWSLATTER</h4>
+                  <h3>Get notified about the event! <br> Subscribe today</h3>
+            </div><!-- newsletter-content -->
+            <div class="newsletter-form">
+                  <form>
+                      <input type="email" placeholder="Enter Your Email Address" required>
+                      <button type="submit">Subscribe</button>
+                  </form>
+            </div><!-- newsletter-form -->
+          </div><!-- newsletter -->
+        </div><!-- container-wrap -->
+      </div><!-- newsform -->
+    <!-- newsletter section -->
+
+    <!-- latest projects section -->
+      <div class="latest-project">
+        <div class="latest-project-title wow fadeInUp" data-wow-delay="0.1s">
+              <h4>OUR PROJECT</h4>
+              <h2>Latest Projects List</h2>
+        </div><!-- latest-project-title -->
+
+        <div class="project-slide wow fadeInUp" data-wow-delay="0.3s">
+
+            <div class="single-project">
+                  <div class="project-overlay">
+                    <img src="assets/images/p1.jpg" alt="" class="project-img">
+                  </div><!-- project-overlay -->
+                  <div class="project-content">
+                      <h3>Guaranteed Tool Repairs</h3>
+                  </div><!-- project-content -->
+            </div><!-- single-project -->
+
+            <div class="single-project">
+              <div class="project-overlay">
+                <img src="assets/images/p2.jpg" alt="" class="project-img">
+              </div><!-- project-overlay -->
+              <div class="project-content">
+                  <h3>Planting Assimilation</h3>
+              </div><!-- project-content -->
+            </div><!-- single-project -->
+
+            <div class="single-project">
+              <div class="project-overlay">
+                <img src="assets/images/p3.jpg" alt="" class="project-img">
+              </div><!-- project-overlay -->
+              <div class="project-content">
+                  <h3>Guaranteed Tool Repairs</h3>
+              </div><!-- project-content -->
+            </div><!-- single-project -->
+
+            <div class="single-project">
+              <div class="project-overlay">
+                <img src="assets/images/p4.jpg" alt="" class="project-img">
+              </div><!-- project-overlay -->
+              <div class="project-content">
+                  <h3>Guaranteed Tool Repairs</h3>
+              </div><!-- project-content -->
+            </div><!-- single-project -->
+
+            <div class="single-project">
+              <div class="project-overlay">
+                <img src="assets/images/p2.jpg" alt="" class="project-img">
+              </div><!-- project-overlay -->
+              <div class="project-content">
+                  <h3>Relaxing Environment Space</h3>
+              </div><!-- project-content -->
+            </div><!-- single-project -->
+
+        </div><!-- project-slide -->
+      </div><!-- latest-project -->
+    <!-- latest projects section -->
+
+    <!-- project-video -->
+      <div class="container-wrap">
+        <div class="project-video wow fadeInUp">
+          <img src="assets/images/video-bg.jpg" alt="" style="width: 100%;">
+          <div class="play-overlay">
+            <a href="#"><i class="fa-solid fa-play"></i></a>
+          </div>
+        </div>
+      </div>
+    <!-- project-video -->
+
+    <!-- testimonial section -->  
+        <div class="testimonials">
+            <div class="container-wrap">
+              <div class="testimonial-title wow fadeInUp">
+                    <h4>Testimonial</h4>
+                    <h2>What They Are Talking for Our <br> Happy Client</h2>
+              </div><!-- testimonial-title -->
+
+                <div class="testi-slide">
+                  
+                  <div class="single-testimonial wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="testi-rating">
+                            <ul>
+                              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                        </div><!-- testi-rating -->
+                        <div class="testimony">
+                          <p>If you ipsum dolor sit amet, conses ectetur adipisicing elit, sed do lor sit amet, conse cte you are in ergency situation, please do not worry. we is provide call service.
+                          </p>
+                        </div><!-- testimony -->
+                        <div class="testi-writer">
+                          <img src="assets/images/testi-01.jpg" alt="">
+                          <div class="writer-info">
+                            <h2>Cori Anderson</h2>
+                            <span>CEO, Google Inc.</span>
+                          </div><!-- writer-info -->
+                        </div><!-- testi-writer -->
+
+                  </div><!-- single-testimonial -->
+
+                  <div class="single-testimonial wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testi-rating">
+                        <ul>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div><!-- testi-rating -->
+                    <div class="testimony">
+                      <p>If you ipsum dolor sit amet, conses ectetur adipisicing elit, sed do lor sit amet, conse cte you are in ergency situation, please do not worry. we is provide call service.
+                      </p>
+                    </div><!-- testimony -->
+                    <div class="testi-writer">
+                      <img src="assets/images/testi-01.jpg" alt="">
+                      <div class="writer-info">
+                        <h2>Cori Anderson</h2>
+                        <span>CEO, Google Inc.</span>
+                      </div><!-- writer-info -->
+                    </div><!-- testi-writer -->
+
+                  </div><!-- single-testimonial -->
+
+                  <div class="single-testimonial wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testi-rating">
+                        <ul>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                          <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        </ul>
+                    </div><!-- testi-rating -->
+                    <div class="testimony">
+                      <p>If you ipsum dolor sit amet, conses ectetur adipisicing elit, sed do lor sit amet, conse cte you are in ergency situation, please do not worry. we is provide call service.
+                      </p>
+                    </div><!-- testimony -->
+                    <div class="testi-writer">
+                      <img src="assets/images/testi-01.jpg" alt="">
+                      <div class="writer-info">
+                        <h2>Cori Anderson</h2>
+                        <span>CEO, Google Inc.</span>
+                      </div><!-- writer-info -->
+                    </div><!-- testi-writer -->
+
+                  </div><!-- single-testimonial -->
+
+                </div><!-- testi-slide -->
+
+            </div><!-- container-wrap -->
+        </div><!-- testimonials -->
+    <!-- testimonial section -->
+
+    <!-- latest blog section -->
+        <div class="latest-blog">
+          <div class="container-wrap">
+              <div class="blog-title wow fadeInUp">
+                  <div class="latest-blog-title">
+                      <h4>OUR BLOG</h4>
+                      <h2>Latest Activities</h2>
+                  </div><!-- latest-blog-title -->
+                  <a href="#" class="more-blog">See More Blog <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+              </div><!-- blog-title -->
+            <div class="row">
+
+                <div class="single-blog wow fadeInUp" data-wow-delay="0.1s">
+
+                  <div class="blog-img-overlay">
+                    <img src="assets/images/blog-01.jpg" alt="" class="blog-img">
+                  </div><!-- blog-img-overlay -->
+
+                  <div class="blog-excerpt">
+                
+                    <div class="publish"> 
+                      <span><a href="#"><i class="fa-solid fa-user-large"></i>By Admin Poket .</a></span>
+                      <span><a href="#"><i class="fa-sharp fa-regular fa-clock"></i>09 Dec 2022</a></span>
+                  </div><!-- publish -->
+                    <h2><a href="#">How To Clean Your Home More Efficiently</a></h2>
+                    <p>That foresee the pain and trouble a their duty through indignation</p>
+                    <a href="#" class="read-more">Read More <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+                </div><!-- blog-excerpt -->
+                </div><!-- single-blog -->
+
+                <div class="single-blog wow fadeInUp" data-wow-delay="0.2s">
+
+                  <div class="blog-img-overlay">
+                    <img src="assets/images/blog-02.jpg" alt="" class="blog-img">
+                  </div><!-- blog-img-overlay -->
+
+                  <div class="blog-excerpt">
+                
+                    <div class="publish"> 
+                      <span><a href="#"><i class="fa-solid fa-user-large"></i>By Admin Poket .</a></span>
+                      <span><a href="#"><i class="fa-sharp fa-regular fa-clock"></i>09 Dec 2022</a></span>
+                  </div><!-- publish -->
+                    <h2><a href="#">How To Clean Your Home More Efficiently</a></h2>
+                    <p>That foresee the pain and trouble a their duty through indignation</p>
+                    <a href="#" class="read-more">Read More <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+                </div><!-- blog-excerpt -->
+                </div><!-- single-blog -->
+
+                <div class="single-blog wow fadeInUp" data-wow-delay="0.3s">
+
+                  <div class="blog-img-overlay">
+                    <img src="assets/images/blog-03.jpg" alt="" class="blog-img">
+                  </div><!-- blog-img-overlay -->
+
+                  <div class="blog-excerpt">
+                
+                    <div class="publish"> 
+                      <span><a href="#"><i class="fa-solid fa-user-large"></i>By Admin Poket .</a></span>
+                      <span><a href="#"><i class="fa-sharp fa-regular fa-clock"></i>09 Dec 2022</a></span>
+                  </div><!-- publish -->
+                    <h2><a href="#">How To Clean Your Home More Efficiently</a></h2>
+                    <p>That foresee the pain and trouble a their duty through indignation</p>
+                    <a href="#" class="read-more">Read More <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+                </div><!-- blog-excerpt -->
+                </div><!-- single-blog -->
+
+            </div><!-- row -->
+          </div><!-- container-wrap -->
+        </div><!-- latest-blog -->
+    <!-- latest blog section -->
+
+    <!-- footer section -->
+        <footer>
+            <div class="container-wrap">
+              <div class="footer-top">
+                <div class="row">
+                    <div class="footer-desc wow fadeInUp" data-wow-delay="0.1s">
+                          <a href="#">
+                            <img src="assets/images/logo2.png" alt="">
+                          </a>
+                          <p>There are many variations passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                          <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                          </ul>
+                    </div><!-- footer-desc -->
+                    <div class="footer-services wow fadeInUp" data-wow-delay="0.2s">
+                      <h4>Our Services</h4>
+                      <ul>
+                        <li><a href="#">Watering Garden</a></li>
+                        <li><a href="#">Garden Care</a></li>
+                        <li><a href="#">Lawn Removing</a></li>
+                        <li><a href="#">Landscape Design</a></li>
+                      </ul>
+                    </div><!-- footer-services -->
+                    <div class="footer-contact wow fadeInUp" data-wow-delay="0.3s">
+                      <h4>Get In Touch</h4>
+                      <div class="footer-inner-contact">
+                          <div class="footer-icon">
+                              <i class="fa-sharp fa-solid fa-location-dot"></i>
+                          </div><!-- footer-icon -->
+                          <div class="footer-info">
+                            <p>1245 Rang Raod, medical, E152 95RB</p>
+                          </div><!-- footer-info -->
+                      </div><!-- footer-inner-contact -->
+                      <div class="footer-inner-contact">
+                        <div class="footer-icon">
+                            <i class="fa-sharp fa-solid fa-phone"></i>
+                        </div><!-- footer-icon -->
+                        <div class="footer-info">
+                          <p>Telephone: (922) 3354 2252</p>
+                        </div><!-- footer-info -->
+                    </div><!-- footer-inner-contact -->
+                    <div class="footer-inner-contact">
+                      <div class="footer-icon">
+                          <i class="fa-sharp fa-solid fa-envelope-open-text"></i>
+                      </div><!-- footer-icon -->
+                      <div class="footer-info">
+                        <p>demo@example.com</p>
+                      </div><!-- footer-info -->
+                  </div><!-- footer-inner-contact -->
+                    </div><!-- footer-contact -->
+                    <div class="footer-gallery wow fadeInUp" data-wow-delay="0.4s">
+                      <h4>Gallery</h4>
+                      <div class="gallery">
+                        
+                                <div class="gallery-item">
+                                  <a href="#"><img src="assets/images/f1.jpg" alt=""></a>
+                                </div><!-- gallery-item -->
+                    
+
+                      
+                              <div class="gallery-item">
+                                <a href="#"><img src="assets/images/f2.jpg" alt=""></a>
+                              </div><!-- gallery-item -->
+                    
+
+                      
+                            <div class="gallery-item">
+                              <a href="#"><img src="assets/images/f3.jpg" alt=""></a>
+                            </div><!-- gallery-item -->
+                    
+
+                    
+                          <div class="gallery-item">
+                            <a href="#"><img src="assets/images/f4.jpg" alt=""></a>
+                          </div><!-- gallery-item -->
+                      
+
+                    
+                        <div class="gallery-item">
+                          <a href="#"><img src="assets/images/f5.jpg" alt=""></a>
+                        </div><!-- gallery-item -->
+                  
+                      <div class="gallery-item">
+                        <a href="#"><img src="assets/images/f6.jpg" alt=""></a>
+                      </div><!-- gallery-item -->
+                  
+                      </div><!-- gallery -->
+                    </div><!-- footer-gallery -->
+                </div><!-- row -->
+              </div><!-- footer-top -->
+            </div><!-- container-wrap -->
+        </footer>
+
+        <div class="footer-bottom">
+          <div class="container-wrap">
+            <div class="row">
+              <div class="copy-text wow fadeInUp">
+                <p>Copyright &copy; poket all rights reserved.</p>
+              </div><!-- copy-text -->
+              <div class="footer-menu wow fadeInUp">
+                <ul>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">contact us</a></li>
+                </ul>
+              </div><!-- footer-menu -->
+            </div><!-- row -->
+          </div><!-- container-wrap -->
+      </div><!-- footer-bottom -->
+    <!-- footer section -->
+
+
+    <!--Script's-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- jQuery google cdn -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="assets/js/countMe.min.js"></script>
+    <!-- counter -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- animate -->
+    <script src="assets/js/main.js"></script>  
+    <!-- script -->
+    <script>
+      new WOW().init();
+    </script>
+
+
+   <!-- javascript -->
+</body>
+</html>
