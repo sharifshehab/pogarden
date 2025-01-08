@@ -1,15 +1,10 @@
 <div align="center">
-  <img height="400" src="[https://raw.githubusercontent.com/sharifshehab/sharifshehab/refs/heads/main/Untitled.png](https://i.ibb.co.com/Fn8dTzX/pogarden.webp)"  />
+  <img height="900" src="https://i.ibb.co.com/Fn8dTzX/pogarden.webp"  />
 </div>
 
 # PoGarden – Vegetable and Garden 
 
 Step into Pogarden, where gardening meets sustainability and fresh vegetables come to life. We are passionate about helping you cultivate thriving gardens and enjoy the benefits of fresh, homegrown produce. At Pogarden, we offer a wide range of services, from expert garden design and landscaping to vegetable gardening and maintenance. Our team is dedicated to creating personalized solutions that fit your space and lifestyle, whether you're starting a small herb garden or transforming your entire yard into a flourishing vegetable haven. We believe in sustainable practices that not only enhance the beauty of your outdoor space but also provide you with healthy, homegrown food. With Pogarden, you’ll have the support and expertise you need to create a vibrant, productive garden that you can be proud of. Let’s grow something beautiful together!
-
-## Key features:
-1. **Toggle between Available and Selected component**
-2. **Validation check for sufficient balance, already include or exceeding the squad limit before adding a player to the selected list**
-3. **Auto close Toast for adding balance, insufficient balance, player already selected, and exceeding selection list**
 
 ## Technologies used:
 - **HTML and CSS**
