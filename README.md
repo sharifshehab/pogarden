@@ -9,15 +9,15 @@ Step into Pogarden, where gardening meets sustainability and fresh vegetables co
 
 ## Features:
 - **Smooth transition effects**
-- **On-screen search bar field**
+- **Screen-overlay search bar field**
 - **Responsive for all devices**
 
 ## Installation:
 1. **First, clone the repository to your local machine. you can do this by downloading the zip file or by cloning it using the web URL**
-2. **Navigate to the project folder and open the index.html file in your browser**
+2. **Navigate to the project folder and open the <code>index.html</code> file in your browser**
 3. **To make any changes to the file, open the project in a code editor**
 
 - **You should now be able to view and interact with the static HTML template on your local machine!**
 
-##  Live link:
+##  Live Link:
 - **[Pogarden](https://sharifshehab.github.io/pogarden)**
